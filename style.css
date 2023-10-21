@@ -1,0 +1,78 @@
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+html, body{
+  
+    text-align: center;
+    background-color: black;
+}
+
+.container{
+    text-align: center;
+ 
+    background-color: rgb(41, 41, 41);
+    padding: 1rem;
+    height: 25rem;
+    width: 20rem;
+    border-radius: 5%;
+    margin: 1rem;
+    border: solid white;
+  
+  
+}
+
+.row{
+    margin: 8px 0;
+}
+
+.button{
+    margin:  0 3px;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 9px;
+    width: 4rem;
+    padding: 20px;
+    font-size: 1.1rem;
+}
+
+.row input{
+    margin: 0px;
+    padding:10px  0;
+    width: 8 rem;
+    border: 2px solid black;
+    font-size: 1.4rem;
+}
+
+.flexb{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bg1{
+    background-color: rgb(234, 165, 16);
+    border-radius: 20%;
+    font-size: 1.3rem;
+    font-weight: 550;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg1:hover{
+    background-color: rgb(180, 121, 14);
+    font-weight: 750;
+}
+
+.bg2:hover{
+    background-color: grey;
+    font-weight: 700;
+}
